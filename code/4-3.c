@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &index);
 
-    if(0<index<5){
+    if(0<=index<5){
       printf("%d", arr[index]);
     }else{
       printf("Error!");
