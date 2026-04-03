@@ -5,7 +5,7 @@ int main() {
   int y = 20;
 
   printf("%d\n", x);
-  const int * ptr = &x;
+  int * const ptr = &x;
 
   *ptr = y;
   printf("%d\n", x);
