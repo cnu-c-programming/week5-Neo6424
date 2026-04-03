@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int sum_range(int *start, int *end){
-  arr[0] = arr[0]+arr[0];
-  arr[1] = arr[1]+arr[1];
-  arr[2] = arr[2]+arr[2];
-  arr[3] = arr[3]+arr[3];
-  arr[4] = arr[4]+arr[4];
+int sum;
+ while (start < end) {
+        sum += *start;
+        start++;
+    }
+    
+    return sum;
 }
 
 int main() {
